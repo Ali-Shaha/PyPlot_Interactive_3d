@@ -1,0 +1,12 @@
+<VTKFile type="vtkMultiBlockDataSet" version="1.0" byte_order="LittleEndian" header_type="UInt64">
+  <vtkMultiBlockDataSet>
+    <Block index="0" name="unzoned">
+      <DataSet index="0" name="internalMesh" file="block0/block0_0_0.vtu"/>
+    </Block>
+  </vtkMultiBlockDataSet>
+  <FieldData>
+    <DataArray type="Float64" Name="TimeValue" NumberOfTuples="1" format="binary" RangeMin="0.5" RangeMax="0.5">
+      CAAAAAAAAAAAAAAAAADgPw==
+    </DataArray>
+  </FieldData>
+</VTKFile>
