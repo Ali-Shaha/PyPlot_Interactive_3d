@@ -12,7 +12,7 @@ In this script I tried to find a workaround for interactive visualization of gen
 - [pyvista] (0.37.0)
 - [vtk] (9.2.2)
 
-> &#10158; **_NOTE:_** updated `interpolate` function in the latest version of k3d (2.14) makes the conturs and stls distorted.
+> &#10158; **_NOTE:_** updated `interpolate` function in the latest version of k3d (2.14) makes the contours and stls distorted.
 
 ## Examples
 
