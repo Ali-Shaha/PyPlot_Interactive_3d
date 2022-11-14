@@ -16,7 +16,7 @@ In this script I tried to find a workaround for interactive visualization of gen
 
 ## Examples
 
-Click the bellow link to see gerated html example files.
+Click the link bellow to see example of gerated html file.
 
 - [Sandia flame D][sandiaD]
 
