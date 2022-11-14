@@ -6,7 +6,7 @@ is a script for portable loading and visualizing (at the moment) the MultiBlock 
 
 In this script I tried to find a workaround for interactive visualization of generated results by e.g. [OpenFOAM][OF], namely vtm and stl files, in a portable format (e.g. .html file). The notebook file uses [vtk][vtk], [k3d][k3d] and [pyvista][pyvista] modules for handling and visualization of the files. This script is originally written in **2020**, and the choice of packages are based on performance of available ones at the time.
 
-<!-- ## Theory
+<!-- <!-- ## Theory
 
 The system of ordinary differential equations (ODEs) for a constant volume batch reactor can be written as:
 
@@ -14,15 +14,17 @@ $$ \frac{\partial T}{\partial t} = \frac{-1}{\rho c_v} \sum_{k = 1}^{N_{sp}} u_k
 
 $$\frac{\partial Y_k}{\partial t} = \frac{W_k}{\rho} \dot{\omega_k} \;\;k = 1,...,N_{sp}-1$$
 
-where $c_v$ is the mass-averaged constant volume specific heat, $u_k$, $W_k$, and $\dot{\omega_k}$ are internal energy, molecular weight and production rate of the $k$ th species, respectively. In current implementation of the code the density ( $\rho$ ) is assumed to be constant and hence the pressure is updated from the ideal gas equation of state [[1][canteraZeroD],[2][pyJacPaper]].
+where $c_v$ is the mass-averaged constant volume specific heat, $u_k$, $W_k$, and $\dot{\omega_k}$ are internal energy, molecular weight and production rate of the $k$ th species, respectively. In current implementation of the code the density ( $\rho$ ) is assumed to be constant and hence the pressure is updated from the ideal gas equation of state [[1][canteraZeroD],[2][pyJacPaper]]. -->
 
-## Dependencies
+## Dependencies and tested versions
 
-cvpyJac requires installation of :
-- [Cantera]
-- [pyJac]
+- [k3d] (2.6.9)
+- [pyvista] (0.37.0)
+- [vtk] (9.2.2)
 
-## Installation
+> U+26A0 updated 'interpolate' function in the latest version of k3d makes the conturs distorted
+
+<!-- ## Installation
 
 Using the downloaded source code, cvpyJac can be installed as a Python module:
 ```
@@ -38,7 +40,7 @@ cvpyJac can be run as a python module:
 
 The generated source code is placed within the `out` (by default) directory,
 which is created if it doesn't exist initially.
-See the documentation or use `python cvpyjac -h` for the full list of options. -->
+See the documentation or use `python cvpyjac -h` for the full list of options. --> 
 
 ## Author
 - [Ali Shahanaghi](https://github.com/Ali-Shaha)
