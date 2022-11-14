@@ -22,7 +22,7 @@ where $c_v$ is the mass-averaged constant volume specific heat, $u_k$, $W_k$, an
 - [pyvista] (0.37.0)
 - [vtk] (9.2.2)
 
-> U+26A0 updated 'interpolate' function in the latest version of k3d makes the conturs distorted
+> &#10158; **_NOTE:_** updated `interpolate` function in the latest version of k3d (2.14) makes the conturs and stls distorted.
 
 <!-- ## Installation
 
