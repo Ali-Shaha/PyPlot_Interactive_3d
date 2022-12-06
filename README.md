@@ -14,7 +14,7 @@ In this script I tried to find a workaround for interactive visualization of gen
 
 > &#10158; **_NOTE:_** updated `interpolate` function in the latest version of k3d (2.14) makes the contours and stls distorted.
 
-> **Note**  
+> **_NOTE:_**  
 This step is required for interactive objects only
 
 ## Examples
